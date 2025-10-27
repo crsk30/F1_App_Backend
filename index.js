@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 
 // Routes
 app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to the Express server' });
+    res.json({ message: 'Welcome to the Node Web server' });
 });
 
 // app.get('/health', (req, res) => {
